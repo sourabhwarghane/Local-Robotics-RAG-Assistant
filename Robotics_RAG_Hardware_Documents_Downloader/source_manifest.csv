@@ -1,0 +1,9 @@
+category,hardware,title,source,format,rag_priority
+sensors,RPLIDAR C1/C1M1,SLAMTEC RPLIDAR C1 Datasheet,https://download-en.slamtec.com/api/download/rplidar-c1-datasheet/1.2?lang=en,pdf,high
+sensors,RPLIDAR C1/C1M1,SLAMTEC RPLIDAR C1M1 Development Kit User Manual,https://download-en.slamtec.com/api/download/rplidar-c1-usermanual/1.3?lang=en,pdf,high
+compute,Jetson Orin Nano Super Developer Kit,NVIDIA Jetson Orin Nano Developer Kit Carrier Board Specification,https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_carrier_board_specification_sp.pdf,pdf,high
+compute,Jetson Orin Nano Super Developer Kit,NVIDIA Jetson Orin Nano Super Developer Kit User Guide,https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/,html,high
+mcu,ESP32-C3,Espressif ESP32-C3 Series Datasheet,https://www.espressif.com/documentation/esp32-c3_datasheet_en.pdf,pdf,high
+mcu,ESP32-C3,Espressif ESP32-C3 Hardware Design Guidelines,https://documentation.espressif.com/esp-hardware-design-guidelines/en/latest/esp32c3/esp-hardware-design-guidelines-en-master-esp32c3.pdf?title=ESP32-C3+Hardware+Design+Guidelines,pdf,high
+camera,IMX219-120,Waveshare IMX219-120 Camera Wiki,https://www.waveshare.com/wiki/IMX219-120_Camera,html,high
+motor_driver,BTS7960,Infineon BTS7960 Datasheet,https://www.infineon.com/assets/row/public/documents/10/57/infineon-bts7960-ds-en.pdf,pdf,medium
