@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "type": "project",
+    "question": "What does the AMR watchdog node monitor?",
+    "expected_keywords": [
+      "LiDAR",
+      "camera heartbeat",
+      "battery",
+      "cmd_vel"
+    ],
+    "expected_sources": [
+      "watchdog",
+      "AMR_Project",
+      "Vector_AMR"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "project",
+    "question": "Why is the watchdog separate from the decision node?",
+    "expected_keywords": [
+      "independent",
+      "safety",
+      "decision"
+    ],
+    "expected_sources": [
+      "watchdog",
+      "Vector_AMR",
+      "AMR_Project"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "project",
+    "question": "Why does my AMR use BEST_EFFORT QoS for camera images?",
+    "expected_keywords": [
+      "fresh",
+      "retransmit",
+      "high-rate"
+    ],
+    "expected_sources": [
+      "Vector_AMR",
+      "AMR_Project"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "project",
+    "question": "Why does the watchdog use a camera heartbeat instead of subscribing to full camera images?",
+    "expected_keywords": [
+      "heartbeat",
+      "liveness",
+      "CPU"
+    ],
+    "expected_sources": [
+      "watchdog",
+      "AMR_Project",
+      "Vector_AMR"
+    ]
+  },
+  {
+    "id": 5,
+    "type": "hardware",
+    "question": "What is the maximum measuring range of the RPLIDAR C1?",
+    "expected_keywords": [
+      "12",
+      "meter"
+    ],
+    "expected_sources": [
+      "SLAMTEC_RPLIDAR_C1_Datasheet"
+    ]
+  },
+  {
+    "id": 6,
+    "type": "hardware",
+    "question": "What is the typical scanning frequency of the RPLIDAR C1?",
+    "expected_keywords": [
+      "10",
+      "Hz"
+    ],
+    "expected_sources": [
+      "SLAMTEC_RPLIDAR_C1_Datasheet"
+    ]
+  },
+  {
+    "id": 7,
+    "type": "hardware",
+    "question": "What is the sample rate of the RPLIDAR C1?",
+    "expected_keywords": [
+      "5",
+      "kHz"
+    ],
+    "expected_sources": [
+      "SLAMTEC_RPLIDAR_C1_Datasheet"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "hardware",
+    "question": "How does the RPLIDAR C1 measure distance?",
+    "expected_keywords": [
+      "TOF",
+      "laser",
+      "reflected"
+    ],
+    "expected_sources": [
+      "SLAMTEC_RPLIDAR_C1_Datasheet"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "project",
+    "question": "What does the motor control node do in my AMR?",
+    "expected_keywords": [
+      "cmd_vel",
+      "PWM",
+      "ESP32"
+    ],
+    "expected_sources": [
+      "AMR_Project",
+      "Vector_AMR"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "project",
+    "question": "What is TensorRT used for in my AMR?",
+    "expected_keywords": [
+      "inference",
+      "NVIDIA",
+      "GPU"
+    ],
+    "expected_sources": [
+      "AMR_Project",
+      "Vector_AMR"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "project",
+    "question": "Why does the AMR still need a tracker after YOLO detects a person?",
+    "expected_keywords": [
+      "track",
+      "frame"
+    ],
+    "expected_sources": [
+      "AMR_Project",
+      "Vector_AMR"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "ros2",
+    "question": "What does BEST_EFFORT reliability mean in ROS 2 QoS?",
+    "expected_keywords": [
+      "deliver",
+      "lose"
+    ],
+    "expected_sources": [
+      "ROS2_Humble_QoS_Settings"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "unanswerable",
+    "question": "What GPS module does my AMR use?",
+    "expected_refusal": true
+  },
+  {
+    "id": 14,
+    "type": "unanswerable",
+    "question": "What exact IMU sensor model does my AMR use?",
+    "expected_refusal": true
+  },
+  {
+    "id": 15,
+    "type": "unanswerable",
+    "question": "What is the exact manufacturer and model number of my AMR USB microphone?",
+    "expected_refusal": true
+  }
+]
